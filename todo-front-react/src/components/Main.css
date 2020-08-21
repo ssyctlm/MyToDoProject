@@ -1,0 +1,14 @@
+.radiobox {
+  height: 20px;
+  width: 20px;
+  border: 2px #28a745 solid;
+  border-radius: 50%;
+}
+
+.fill {
+  background-color: #28a745;
+}
+
+.delete {
+  text-decoration: line-through;
+}
