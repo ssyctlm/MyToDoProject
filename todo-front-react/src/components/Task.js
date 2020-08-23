@@ -1,25 +1,25 @@
 import React, { Component } from 'react'
 
-class Task extends Component(){
+class Task extends Component() {
   // constructor(props){
   //   super(props);
-      
-    
+
+
   // }
-  render(){
-    return(
-      <li onClick = {this.finish} className="list-group-item">
-      <div className = 'row'>
-        <div className = "listLeft col-1 d-flex align-items-center align-content-center justify-content-center">
-          <div className= "radiobox" >
-            <br></br>
+  render() {
+    return (
+      <li onClick={() => { }} className="list-group-item">
+        <div className='row'>
+          <div className="listLeft col-1 d-flex align-items-center align-content-center justify-content-center">
+            <div className="radiobox" >
+              <br></br>
+            </div>
+          </div>
+          <div className="col-11">
+
           </div>
         </div>
-        <div className="col-11">
-        
-        </div>
-      </div>
-    </li>
+      </li>
     )
   }
 }
@@ -40,7 +40,7 @@ class Task extends Component(){
 
 //       </li>
 
-    
+
 //     )
 // }
 
